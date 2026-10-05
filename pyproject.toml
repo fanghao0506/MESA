@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mesa-inverse-imaging"
+version = "0.1.0"
+description = "Measurement-driven field-readout reconstruction for inverse imaging"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "MESA authors"}]
+dependencies = ["numpy>=1.26", "scipy>=1.11"]
+
+[project.optional-dependencies]
+torch = ["torch>=2.5"]
+demo = ["matplotlib>=3.8"]
+
+[tool.setuptools.packages.find]
+include = ["mesa*"]

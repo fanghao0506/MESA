@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying MESA manuscript when using this code."
+type: software
+title: "MESA: Measurement-Driven Field–Readout Reconstruction for Inverse Imaging"
+version: 0.1.0
+date-released: 2026-10-05
+license: MIT
+authors:
+  - family-names: Fang
+    given-names: Hao
+  - family-names: Li
+    given-names: Lin
+  - family-names: Teng
+    given-names: Sihao
+  - family-names: Liu
+    given-names: Zhe
+  - family-names: Yang
+    given-names: Yunjie

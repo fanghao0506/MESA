@@ -1,0 +1,130 @@
+{
+  ".github/workflows/tests.yml": {
+    "bytes": 487,
+    "sha256": "a66abcd72b3347c28149a82cd1c0a5727d83d207bef7499c8dd954b39b80c15f"
+  },
+  ".gitignore": {
+    "bytes": 94,
+    "sha256": "378de4c70d06320288aa2a12090f2f0cec48be07f3813e8971ae3b5a3d9b8a31"
+  },
+  "CITATION.cff": {
+    "bytes": 482,
+    "sha256": "567abc215ff78a92ed2a116c913d1997eae62c54d7beb6d0e76840906e84d336"
+  },
+  "configs/ect_controlled.json": {
+    "bytes": 87,
+    "sha256": "1bca0e538b29ae9b7c9b45edb8e9c044f462fc161acd616d0ebbc4c29f6b6f07"
+  },
+  "configs/ect_measured.json": {
+    "bytes": 87,
+    "sha256": "7ba9ac0daa2e6b915b4c2672814bdd2c91f641a0984e3730e00637a264d2e528"
+  },
+  "configs/eit_biomedical_tissue.json": {
+    "bytes": 184,
+    "sha256": "f9274cfe8ee5d9c7b413a7429bdbc9d1ee9b35ffdad686339b7232e14df4d81e"
+  },
+  "configs/eit_biomedical_zebrafish.json": {
+    "bytes": 186,
+    "sha256": "07bc3bc70b5c64cbbee58f6a830b5b04abd4a0c13cb542c665ff9830b9e6d8bb"
+  },
+  "configs/eit_fem.json": {
+    "bytes": 174,
+    "sha256": "53778452c9e236db72908d8de4d0c1ee4a71a0884502afdb0a1eeddfcf04af70"
+  },
+  "configs/eit_tactile.json": {
+    "bytes": 160,
+    "sha256": "491c83075bec318e47e21a78c5e012a6dac8290c4d791eb17bc2db8704bb5bf3"
+  },
+  "configs/mpi_controlled.json": {
+    "bytes": 87,
+    "sha256": "feb4ad1c6010a4fdb5a0d2ba8360931fcb203f46c9a3e8d6f93d9f240008bc87"
+  },
+  "data/eit_examples.npz": {
+    "bytes": 2013326,
+    "sha256": "108fa56dba251ee46425ce96edf57434eaf68b8e3e49c14e184f3c3258b61799"
+  },
+  "docs/API.md": {
+    "bytes": 3871,
+    "sha256": "0494237f4bc7b935947973ae55e5e027e6195f7de07a0679b9da348ad35b90f1"
+  },
+  "docs/DATA.md": {
+    "bytes": 3862,
+    "sha256": "31d3a4acdeef3823303fa7e027d30687202f42d26e0dc263b3f2f5c9606bc24e"
+  },
+  "docs/provenance.json": {
+    "bytes": 2364,
+    "sha256": "9e6fff1eeee683b488092cc078818607f385d0e1eab218267931f9103459a413"
+  },
+  "docs/validation.json": {
+    "bytes": 2027,
+    "sha256": "7c5edd77a9adf458a94aa6e83d16505550f67e3256320ad1ea1b985ef5b65e9d"
+  },
+  "docs/VALIDATION.md": {
+    "bytes": 1905,
+    "sha256": "ddee945689b3f0a6eae85f0528ff368c2f12d66a81cdb542a40c23e947d23e20"
+  },
+  "examples/demo_eit.py": {
+    "bytes": 3835,
+    "sha256": "34fef040dc21367f1898359cf5aedf1e20bb79303cba1ae1a7c97c1c10d358f8"
+  },
+  "examples/reconstruct_npz.py": {
+    "bytes": 1453,
+    "sha256": "0bc575fbfc8366b00e847c22bda8d8dcb6e079e623810f0f359d1e8e1563caa0"
+  },
+  "LICENSE": {
+    "bytes": 1069,
+    "sha256": "5fdbfdcdc903c74c87ae4821dd829b120975fe53f26845f9100d5dfe3a07eb80"
+  },
+  "mesa/__init__.py": {
+    "bytes": 603,
+    "sha256": "437d2b52b4172b9d88b60ec609b2287bb05dc26c3ab61fa14c190c20347a54f4"
+  },
+  "mesa/_components.py": {
+    "bytes": 6098,
+    "sha256": "79970f23b00a1b6ba9e7f6c2fafbe80c27f40e85ccddfce613229810ad5c18e0"
+  },
+  "mesa/_eit_real.py": {
+    "bytes": 2610,
+    "sha256": "0aec803270e5945089d1bb8f1ac416cad0b13c506e8a1cbe32007890bcc854bf"
+  },
+  "mesa/_eit_simulation.py": {
+    "bytes": 7893,
+    "sha256": "610890c8a965af03299b593e12233f6004b94c41b8784cdcbe0bc2be49369114"
+  },
+  "mesa/numpy_backend.py": {
+    "bytes": 6753,
+    "sha256": "5d76fbd818988fc59d5a74dcec70589af5ae6feaecb621f766b6da9f016b5def"
+  },
+  "mesa/torch_backend.py": {
+    "bytes": 4119,
+    "sha256": "f3dc982c17b9ddae4fbaac42043c246bde0782bb044839f5b5e91c026ff0e1c9"
+  },
+  "pyproject.toml": {
+    "bytes": 523,
+    "sha256": "cc11c30465d8540554b8d4261f624b577e28634c6c0b7729fd015cd360b709ce"
+  },
+  "README.md": {
+    "bytes": 4189,
+    "sha256": "0a5da19a1f9fb5cc98666751f0101766e8872538a62175fecf2b79b076b49d7f"
+  },
+  "README_zh.md": {
+    "bytes": 2239,
+    "sha256": "74f532c91a728fc0e852fac010b6ebb5d675776b7d0b59d172d1a76dc88002e9"
+  },
+  "requirements.txt": {
+    "bytes": 98,
+    "sha256": "ebc3e41dd84066f1dfb1926a9cb2cc0008dff4609e0172d57e56a7a43641ee9e"
+  },
+  "tests/fixtures/eit_reference.npz": {
+    "bytes": 40070,
+    "sha256": "f69166fef1198cafee51fc87678d705b2548778a7e1502a4b7c9b0c5fa025bfb"
+  },
+  "tests/test_core.py": {
+    "bytes": 5136,
+    "sha256": "42aa40b4aec1b35907201619335ba77a0beaa7c841ef695b390d1c70549bfa4a"
+  },
+  "THIRD_PARTY_NOTICES.md": {
+    "bytes": 940,
+    "sha256": "6049f32cd575b3a061345a6a7c0779995ea77db16b95e9e1831ba43cc2cb6f19"
+  }
+}
