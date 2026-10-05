@@ -1,0 +1,11 @@
+{
+  "scales": [
+    1.0
+  ],
+  "sensitivity_exponent": 1.0,
+  "noise_selection": "loocv",
+  "geometry": "legacy",
+  "standardize": false,
+  "iterations": 8,
+  "power": 1.5
+}

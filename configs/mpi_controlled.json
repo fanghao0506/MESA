@@ -1,0 +1,6 @@
+{
+  "sigma": 0.5,
+  "sensitivity_exponent": 0.0,
+  "updates": 2,
+  "hill_power": 6.0
+}

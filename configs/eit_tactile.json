@@ -1,0 +1,10 @@
+{
+  "scales": [
+    0.75
+  ],
+  "noise_selection": "loocv_1se",
+  "sensitivity_exponent": 0.5,
+  "iterations": 4,
+  "readout": "hill",
+  "readout_power": 4.0
+}
