@@ -1,0 +1,67 @@
+{
+  "release_date": "2026-10-05",
+  "source_files": [
+    {
+      "path": "versions/v006/src/mesa.py",
+      "sha256": "14b8f7cde9d8c220ff46868955424fea6f81866e4481858847605aae75822752"
+    },
+    {
+      "path": "versions/v018/src/half_solve.py",
+      "sha256": "cf782e754e45cc234d5e54e3fa7e354536bdc9f077151f506b7f6d744030e4af"
+    },
+    {
+      "path": "versions/v045/src/unified.py",
+      "sha256": "54a11381fd299801d639f0785fe2660bb7180a1203568b37fe93874d2088a6ce"
+    },
+    {
+      "path": "versions/v065/src/mesa.py",
+      "sha256": "80630a955e6b3543af38713b2f1e4f51d0a82e007ded8fa531bb820e1aa317ad"
+    },
+    {
+      "path": "cross_domain_pilots/src/mesa_numpy.py",
+      "sha256": "f33f1f45f0791a5f388a9cee773624d74531083da382d5aaeafd0165909429cb"
+    },
+    {
+      "path": "versions/v059/src/fem.py",
+      "sha256": "5a4b653c7ab888677dc784fa3a9e2e58a7f95c69d708f1cc148ce78d31151da6"
+    },
+    {
+      "path": "versions/v059/experiments/data.py",
+      "sha256": "a23287bfc1205c1146713684bfb6d1157caefcd1d5cdbbc295f9b8b583bf1a01"
+    },
+    {
+      "path": "versions/v074/runs/final_selection_lock.json",
+      "sha256": "70ed08806f9ca56878634f645d93159bf13805b5d94d3cf22b71bb6e16ca2494"
+    }
+  ],
+  "sample_data": {
+    "origin": "Author-generated nonlinear EIT FEM benchmark",
+    "cases": [
+      "circle_01",
+      "concave_L_01",
+      "ring_01"
+    ],
+    "observation_indices": [
+      432,
+      444,
+      468
+    ],
+    "target_indices": [
+      0,
+      12,
+      36
+    ],
+    "nominal_snr_db": 60,
+    "repeat": 0,
+    "original_operator_sha256": "6077ac378a1152bf237e4b880ddcff44a4500359124e83dc652ba6e0251c0c10",
+    "original_data_sha256": "edc00b4b6d7f3dca866576ad5ce24eab077ca6485d9ec993fe2ff478a9f770bd",
+    "expected_predictions_sha256": "20cbf20c1de8b5c43d15a3e618b823798c1651f402cd2b95633600298451a152"
+  },
+  "scope": "Core solvers and three demonstration cases; not full manuscript replication",
+  "packaging_changes": [
+    "History-path imports replaced by local package imports; unused grouped-CV setup removed",
+    "Public EIT interface restricts the reference implementation to single-scale LOOCV/LOOCV-1SE",
+    "NumPy arithmetic retained; finite shape, parameter, observable-component and complex-input validation added",
+    "No changes to regular finite-input reconstruction mathematics; no CUDA Graphs"
+  ]
+}
